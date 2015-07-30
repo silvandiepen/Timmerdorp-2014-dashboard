@@ -1,0 +1,51 @@
+{
+  "name": "framed",
+  "homepage": "https://silvandiepen.com",
+  "authors": [
+    "silvandiepen <me@silvandiepen.com>"
+  ],
+  "description": "Responsive grid",
+  "main": [
+    "_framed.scss",
+    "src/_accordion.scss",
+    "src/_color_default.scss",
+    "src/_forms.scss",
+    "src/_functions.scss",
+    "src/_grid.scss",
+    "src/_mixins.scss",
+    "src/_modal.scss",
+    "src/_settings.scss",
+    "src/_tables.scss",
+    "src/_chart.scss",
+    "src/_tabs.scss"
+  ],
+  "keywords": [
+    "responsive",
+    "grid",
+    "frame",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 2.1.0",
+    "modernizr": ">= 2.7.2"
+  },
+  "_release": "1b9cfe39b7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1b9cfe39b7159b9176e8e7a2ea1890d464b15f62"
+  },
+  "_source": "git://github.com/silvandiepen/framed.git",
+  "_target": "*",
+  "_originalSource": "framed",
+  "_direct": true
+}

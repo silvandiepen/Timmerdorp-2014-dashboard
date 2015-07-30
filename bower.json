@@ -1,0 +1,23 @@
+{
+  "name": "Timmerdorp Dashboard",
+  "version": "0.0.1",
+  "homepage": "https://github.com/silvandiepen/Timmerdorp-2014-dashboard",
+  "authors": [
+    "silvandiepen <me@silvandiepen.com>"
+  ],
+  "description": "Dashboard for Timmerdorp",
+  "main": "index.html",
+  "keywords": [
+    "timmerdorp",
+    "heiloo",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

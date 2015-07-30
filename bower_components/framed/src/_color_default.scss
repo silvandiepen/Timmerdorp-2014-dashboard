@@ -1,0 +1,114 @@
+$gray: #666666 !default;
+$midgray: #999999 !default;
+$darkgray: #404040 !default;
+$lightgray: #f8f8f8 !default;
+$roze: #EEB4D2 !default;
+$purple: #8E3266 !default;
+$red: #E41C37 !default;
+$orange: #F9B218 !default;
+$yellow: #FAE106 !default;
+$turquoise: #5BC4BF !default;
+$blue: #1EADC9 !default;
+$skyblue: #59C9EB !default;
+$darkblue: #15617F !default;
+$darkgreen: #4A7F3B !default;
+$green: #48B971 !default;
+$darkbrown: #6D5038 !default;
+$brown: #B68961 !default;
+$pink: #ED1E7B !default;
+$black: #222222 !default;
+$white: #ffffff !default;
+$gray: #888888 !default;
+
+// SOCIAL MEDIA COLORS
+
+	$facebook: #3b5998;
+	$twitter: #00aced;
+	$googleplus: #dd4b39;
+	$youtube: #bb0000;
+	$linkedin: #007bb6;
+	$instagram: #517fa4;
+	$pinterest: #cb2027;
+	$vine: #00bf8f;
+	$snapchat: #fffc00;
+	$quora: #a82400;
+	$flickr: #ff0084;
+	$tumblr: #32506d;
+	$vkontakte: #45668e;
+	$vimeo: #aad450;
+	$foursquare: #0072b1;
+	$dribbble: #ea4c89;
+	$soundcloud: #0066CC;
+	$git: #0f0d0e;
+	$skype: #12A5F4;
+
+
+
+	$basic-colors:
+		(roze: $roze,
+		purple: $purple,
+		red: $red,
+		orange: $orange,
+		yellow: $yellow,
+		turquoise: $turquoise,
+		blue: $blue,
+		skyblue: $skyblue,
+		darkblue: $darkblue,
+		darkgreen: $darkgreen,
+		green: $green,
+		darkbrown: $darkbrown,
+		brown: $brown,
+		pink: $pink,
+		black: $black,
+		white: $white,
+		gray: $gray,
+		lightgray: $lightgray,
+		midgray: $midgray,
+		darkgray: $darkgray);
+
+	$status-colors:
+		(pending: map-get($basic-colors, orange),
+		cancelled: map-get($basic-colors, red),
+		draft: map-get($basic-colors, blue),
+		done: map-get($basic-colors, green));
+
+	$social-colors:
+		(dribbble: #ea4c89,
+		facebook: #3b5998,
+		flickr: #ff0084,
+		foursquare: #0072b1,
+		git: #0f0d0e,
+		googleplus: #dd4b39,
+		twitter: #00aced,
+		linkedin: #007bb6,
+		instagram: #517fa4,
+		pinterest: #cb2027,
+		skype: #12A5F4,
+		snapchat: #fffc00,
+		soundcloud: #0066CC,
+		tumblr: #32506d,
+		vimeo: #aad450,
+		vine: #00bf8f,
+		vkontakte: #45668e,
+		youtube: #bb0000);
+		
+		$social: (
+				("dribbble",social(dribble),'n'),
+				("facebook",social(facebook),'7'),
+				("flickr",social(flickr),'W'),
+				("foursquare",social(foursquare),'u'),
+				("git",social(git),'s'),
+				("googleplus",social(googleplus),'r'),
+				("twitter",social(twitter),"'"),
+				("linkedin",social(linkedin),'*'),
+				("instagram",social(instagram),'9'),
+				("pinterest",social(pinterest),'K'),
+				("skype",social(skype),'O'),
+				("snapchat",social(snapchat),'Z'),
+				("soundcloud",social(soundcloud),'$'),
+				("tumblr",social(tumblr),'T'),
+				("vimeo",social(vimeo),'R'),
+				("vine",social(vine),'/'),
+				("vkontakte",social(vkontakte),'&'),
+				("youtube",social(youtube),'"')
+		);
